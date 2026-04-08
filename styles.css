@@ -1,0 +1,35 @@
+/* border:2px; */
+* {
+  /* color:red; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 2px black; */
+  width: 100vw;
+  display: flex;
+  background-color: #a4d9dc;
+}
+.container {
+  border: solid 2px black;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  background-color: #d6f2fc;
+}
+.img-des-cont {
+  display: flex;
+}
+div {
+  /* border:solid 1px white; */
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 10px white;
+}
